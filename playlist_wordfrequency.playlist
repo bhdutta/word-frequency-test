@@ -1,0 +1,36 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="WordFrequencyTests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="WordFrequencyTests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="WordFrequencyAnalyzerTests" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="WordFrequencyTests.WordFrequencyAnalyzerTests.CalculateFrequencyForWord_WithValidTextAndInvalidWord_ShouldThrowException" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CalculateFrequencyForWord_WithValidTextAndInvalidWord_ShouldThrowException" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="WordFrequencyTests.WordFrequencyAnalyzerTests.CalculateHighestFrequency_WithValidText_HighestFrequency" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CalculateHighestFrequency_WithValidText_HighestFrequency" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
